@@ -26,7 +26,7 @@ export function CountUp({
   const [value, setValue] = useState(0);
   const [started, setStarted] = useState(false);
 
-  const target = fraction ? fraction.num : end;
+  const target = fraction ? fraction.num : (end ?? 0);
 
   useEffect(() => {
     const el = ref.current;
