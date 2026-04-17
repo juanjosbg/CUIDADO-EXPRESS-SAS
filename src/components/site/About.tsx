@@ -1,3 +1,5 @@
+import { CountUp } from "./CountUp";
+
 export function About() {
   return (
     <section id="nosotros" className="relative bg-surface py-24 md:py-36">
