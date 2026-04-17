@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
 interface CountUpProps {
-  end: number;
+  end?: number;
   duration?: number;
   prefix?: string;
   suffix?: string;
