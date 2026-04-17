@@ -1,3 +1,5 @@
+import { CountUp } from "./CountUp";
+
 export function About() {
   return (
     <section id="nosotros" className="relative bg-surface py-24 md:py-36">
@@ -39,20 +41,30 @@ export function About() {
           </div>
 
           <div className="reveal reveal-delay-4 grid grid-cols-3 gap-6 pt-10 border-t border-border">
-            {[
-              { k: "24/7", v: "Disponibilidad" },
-              { k: "+100", v: "Servicios mensuales" },
-              { k: "2", v: "Sedes principales" },
-            ].map((s) => (
-              <div key={s.v}>
-                <div className="font-display text-3xl md:text-4xl font-light text-foreground">
-                  {s.k}
-                </div>
-                <div className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                  {s.v}
-                </div>
+            <div>
+              <div className="font-display text-3xl md:text-4xl font-light text-foreground tabular-nums">
+                <CountUp fraction={{ num: 24, den: 7 }} duration={2200} />
               </div>
-            ))}
+              <div className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Disponibilidad
+              </div>
+            </div>
+            <div>
+              <div className="font-display text-3xl md:text-4xl font-light text-foreground tabular-nums">
+                <CountUp end={100} prefix="+" duration={2400} />
+              </div>
+              <div className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Servicios mensuales
+              </div>
+            </div>
+            <div>
+              <div className="font-display text-3xl md:text-4xl font-light text-foreground tabular-nums">
+                <CountUp end={2} duration={1800} />
+              </div>
+              <div className="mt-1 text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Sedes principales
+              </div>
+            </div>
           </div>
         </div>
       </div>
