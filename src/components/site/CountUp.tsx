@@ -13,6 +13,7 @@ interface CountUpProps {
 /**
  * Smoothly counts from 0 to `end` (or to fraction.num) once the element
  * scrolls into view. Uses easeOutExpo for an elegant deceleration.
+ * SSR-safe: renders 0 on the server and animates only in the browser.
  */
 export function CountUp({
   end,
@@ -30,12 +31,16 @@ export function CountUp({
 
   useEffect(() => {
     const el = ref.current;
-    if (!el) return;
+    if (!el || typeof IntersectionObserver === "undefined") {
+      // Fallback: just show the final value if IO isn't available
+      setStarted(true);
+      return;
+    }
 
     const io = new IntersectionObserver(
       (entries) => {
         for (const entry of entries) {
-          if (entry.isIntersecting && !started) {
+          if (entry.isIntersecting) {
             setStarted(true);
             io.unobserve(entry.target);
           }
@@ -46,7 +51,7 @@ export function CountUp({
 
     io.observe(el);
     return () => io.disconnect();
-  }, [started]);
+  }, []);
 
   useEffect(() => {
     if (!started) return;
