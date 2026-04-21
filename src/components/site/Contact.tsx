@@ -41,7 +41,7 @@ export function Contact() {
                 style={{ background: "var(--gradient-brand)" }}
               />
               <span className="service-number">{o.label}</span>
-              <h3 className="mt-3 text-3xl font-display font-light text-foreground">
+              <h3 className="mt-3 text-3xl font-light text-foreground tracking-tight">
                 {o.city}
               </h3>
               <div className="mt-8 space-y-4 text-muted-foreground">
