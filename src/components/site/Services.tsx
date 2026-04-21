@@ -39,8 +39,8 @@ export function Services() {
           <span className="text-xs font-semibold uppercase tracking-[0.25em] text-white/60">
             — Servicios
           </span>
-          <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05]">
-            Lo que hacemos
+          <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] tracking-tight">
+            Nuestros servicios
           </h2>
           <p className="mt-6 text-lg text-white/70 max-w-xl">
             Servicios diseñados para responder con precisión y cuidado en cada situación.
