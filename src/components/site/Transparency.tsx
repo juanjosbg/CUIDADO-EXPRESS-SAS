@@ -32,10 +32,10 @@ export function Transparency() {
         <div className="grid lg:grid-cols-12 gap-12 mb-16">
           <div className="lg:col-span-6 reveal">
             <span className="service-number">— Transparencia</span>
-            <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground">
+            <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground tracking-tight">
               Información
               <br />
-              <em className="font-display italic text-gradient-brand">pública</em>
+              <span className="font-medium text-gradient-brand">pública</span>
             </h2>
           </div>
           <div className="lg:col-span-6 lg:pt-10 reveal reveal-delay-2">
