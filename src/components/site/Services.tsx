@@ -1,23 +1,33 @@
 const services = [
   {
     n: "01",
-    title: "Transporte asistencial básico",
-    desc: "Traslado seguro de pacientes estables con acompañamiento de personal técnico en atención pre-hospitalaria.",
+    title: "Transporte asistencial programado",
+    desc: "Traslados planificados de pacientes con acompañamiento de personal técnico en atención prehospitalaria.",
   },
   {
     n: "02",
-    title: "Transporte asistencial medicalizado",
-    desc: "Vehículos equipados con tecnología avanzada y personal médico especializado para pacientes críticos.",
+    title: "Pacientes crónicos y con discapacidad",
+    desc: "Traslado seguro y humanizado de pacientes con enfermedades crónicas o condiciones de discapacidad.",
   },
   {
     n: "03",
-    title: "Eventos y cubrimiento",
-    desc: "Cobertura pre-hospitalaria para eventos masivos, deportivos, corporativos y rodajes.",
+    title: "Traslados interinstitucionales",
+    desc: "Movilización entre clínicas, hospitales y centros de salud con monitoreo permanente.",
   },
   {
     n: "04",
-    title: "Traslados intermunicipales",
-    desc: "Servicio de transporte asistencial entre ciudades con planeación logística y monitoreo permanente.",
+    title: "Alta y consulta médica",
+    desc: "Acompañamiento en traslados de alta hospitalaria y desplazamiento a citas médicas.",
+  },
+  {
+    n: "05",
+    title: "Gestión y cobertura de eventos",
+    desc: "Cobertura prehospitalaria para eventos masivos, deportivos, corporativos y rodajes.",
+  },
+  {
+    n: "06",
+    title: "Emergencias y apoyo empresarial",
+    desc: "Atención de emergencias médicas y apoyo asistencial continuo para empresas e instituciones.",
   },
 ];
 
