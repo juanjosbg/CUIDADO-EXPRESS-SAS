@@ -4,6 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { AmbulanceCarousel } from "@/components/site/AmbulanceCarousel";
 import { About } from "@/components/site/About";
 import { Services } from "@/components/site/Services";
+import { WhyUs } from "@/components/site/WhyUs";
 import { Transparency } from "@/components/site/Transparency";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
