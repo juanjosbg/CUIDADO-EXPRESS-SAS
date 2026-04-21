@@ -21,8 +21,8 @@ export function Contact() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="reveal max-w-3xl mb-20">
           <span className="service-number">— Contacto</span>
-          <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground">
-            Hablemos
+          <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground tracking-tight">
+            Escríbenos
           </h2>
           <p className="mt-6 text-lg text-muted-foreground">
             Estamos disponibles las 24 horas. Contáctenos para coordinar un servicio
@@ -41,7 +41,7 @@ export function Contact() {
                 style={{ background: "var(--gradient-brand)" }}
               />
               <span className="service-number">{o.label}</span>
-              <h3 className="mt-3 text-3xl font-display font-light text-foreground">
+              <h3 className="mt-3 text-3xl font-light text-foreground tracking-tight">
                 {o.city}
               </h3>
               <div className="mt-8 space-y-4 text-muted-foreground">
