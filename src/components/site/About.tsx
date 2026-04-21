@@ -13,29 +13,31 @@ export function About() {
 
         <div className="lg:col-span-7 space-y-10">
           <p className="reveal reveal-delay-1 text-lg md:text-xl leading-relaxed text-muted-foreground">
-            <span className="font-semibold text-foreground">Cuidado Express SAS</span> es una
-            empresa colombiana dedicada al transporte asistencial de pacientes,
-            ofreciendo servicios pre-hospitalarios con los más altos estándares de
-            calidad, seguridad y humanización.
+            <span className="font-semibold text-foreground">Ambulancias Cuidado Express</span> es
+            una empresa líder en el sector salud, especializada en el transporte
+            asistencial básico y medicalizado de pacientes. Contamos con un equipo de
+            profesionales altamente capacitados y una flota dotada con tecnología de
+            punta, lo que nos permite brindar atención médica prehospitalaria segura,
+            eficiente y de alta calidad.
           </p>
 
           <div className="grid sm:grid-cols-2 gap-8 pt-6">
             <div className="reveal reveal-delay-2 border-t border-border pt-6">
               <span className="service-number">01</span>
-              <h3 className="mt-3 text-xl font-medium text-foreground">Misión</h3>
+              <h3 className="mt-3 text-xl font-medium text-foreground">Nuestra flota</h3>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Brindar atención pre-hospitalaria oportuna, segura y humana,
-                preservando la vida y dignidad de cada paciente que confía en
-                nosotros.
+                Ambulancias básicas y medicalizadas con equipos biomédicos de última
+                tecnología, en cumplimiento de la normatividad vigente y con
+                mantenimiento preventivo y correctivo permanente.
               </p>
             </div>
             <div className="reveal reveal-delay-3 border-t border-border pt-6">
               <span className="service-number">02</span>
-              <h3 className="mt-3 text-xl font-medium text-foreground">Visión</h3>
+              <h3 className="mt-3 text-xl font-medium text-foreground">Talento humano</h3>
               <p className="mt-3 text-muted-foreground leading-relaxed">
-                Ser referente nacional en transporte asistencial, reconocidos por
-                la excelencia operativa, la innovación tecnológica y un compromiso
-                inquebrantable con el cuidado de las personas.
+                Médicos y enfermeros especializados en emergencias, técnicos en
+                atención prehospitalaria con amplia experiencia y personal de apoyo
+                capacitado en servicio al cliente y humanización.
               </p>
             </div>
           </div>
