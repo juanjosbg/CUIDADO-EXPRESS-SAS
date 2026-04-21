@@ -6,8 +6,8 @@ export function About() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid lg:grid-cols-12 gap-16">
         <div className="lg:col-span-5 reveal">
           <span className="service-number">— Quiénes somos</span>
-          <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground">
-            Una entidad <em className="font-display italic text-gradient-brand">comprometida</em> con la vida.
+          <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground tracking-tight">
+            Una entidad <span className="font-medium text-gradient-brand">comprometida</span> con la vida.
           </h2>
         </div>
 
