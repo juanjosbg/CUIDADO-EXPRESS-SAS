@@ -6,6 +6,8 @@ import { useEffect } from "react";
  */
 export function useReveal() {
   useEffect(() => {
+    document.documentElement.classList.add("reveal-ready");
+
     const elements = document.querySelectorAll<HTMLElement>(".reveal");
     if (!elements.length) return;
 
@@ -22,6 +24,9 @@ export function useReveal() {
     );
 
     elements.forEach((el) => io.observe(el));
-    return () => io.disconnect();
+    return () => {
+      io.disconnect();
+      document.documentElement.classList.remove("reveal-ready");
+    };
   }, []);
 }

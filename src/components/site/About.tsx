@@ -1,4 +1,5 @@
 import { CountUp } from "./CountUp";
+import { AmbulanceCarousel } from "@/components/site/AmbulanceCarousel";
 
 export function About() {
   return (
@@ -9,9 +10,13 @@ export function About() {
           <h2 className="mt-4 text-4xl md:text-6xl font-light leading-[1.05] text-foreground tracking-tight">
             Una entidad <span className="font-medium text-gradient-brand">comprometida</span> con la vida.
           </h2>
+
+          <div className="pt-10">
+              <AmbulanceCarousel cardsToShow={1} intervalMs={3200} embedded />
+          </div>
         </div>
 
-        <div className="lg:col-span-7 space-y-10">
+        <div className="lg:col-span-7 space-y-10 mt-10">
           <p className="reveal reveal-delay-1 text-lg md:text-xl leading-relaxed text-muted-foreground">
             <span className="font-semibold text-foreground">Ambulancias Cuidado Express</span> es
             una empresa líder en el sector salud, especializada en el transporte

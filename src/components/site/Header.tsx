@@ -22,11 +22,11 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/85 backdrop-blur-xl border-b border-border/60"
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled
+          ? "bg-[#fdfeff] backdrop-blur-xl border-b border-border/60 shadow-[0px_4px_12px_rgba(0,0,0,0.1)]"
           : "bg-transparent"
-      }`}
+        }`}
+
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-3 group">
@@ -42,9 +42,8 @@ export function Header() {
             <a
               key={l.href}
               href={l.href}
-              className={`story-link text-sm font-medium tracking-wide transition-colors ${
-                scrolled ? "text-foreground/80 hover:text-foreground" : "text-white/90 hover:text-white"
-              }`}
+              className={`story-link text-sm font-medium tracking-wide transition-colors ${scrolled ? "text-foreground/80 hover:text-foreground" : "text-white/90 hover:text-white"
+                }`}
             >
               {l.label}
             </a>
@@ -55,9 +54,8 @@ export function Header() {
           <span className="pulse-dot" aria-hidden />
           <a
             href="tel:+573000000000"
-            className={`text-sm font-semibold tracking-wide transition-colors ${
-              scrolled ? "text-foreground" : "text-white"
-            }`}
+            className={`text-sm font-semibold tracking-wide transition-colors ${scrolled ? "text-foreground" : "text-white"
+              }`}
           >
             Emergencias 24/7
           </a>

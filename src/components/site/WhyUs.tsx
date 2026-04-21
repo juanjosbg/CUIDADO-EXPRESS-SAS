@@ -42,7 +42,7 @@ export function WhyUs() {
               Razones para <span className="font-medium text-gradient-brand">confiar</span> en nosotros.
             </h2>
           </div>
-          <div className="lg:col-span-7 lg:pt-10 reveal reveal-delay-2">
+          <div className="lg:col-span-7 lg:pt-10 reveal reveal-delay-2 lg:mt-[5vh]">
             <p className="text-lg text-muted-foreground leading-relaxed">
               Combinamos experiencia clínica, tecnología y vocación de servicio para
               ofrecer una atención prehospitalaria que prioriza la vida y la dignidad

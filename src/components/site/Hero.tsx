@@ -60,7 +60,7 @@ export function Hero() {
           </div>
 
           <h1
-            className="text-white font-display font-light leading-[0.95] text-5xl sm:text-6xl md:text-7xl lg:text-[6.5rem] animate-fade-up"
+            className="text-white font-semibold uppercase leading-[0.95] text-5xl sm:text-6xl md:text-7xl lg:text-[5.5rem] animate-fade-up"
             style={{ animationDelay: "0.4s" }}
           >
             Cuidamos cada
