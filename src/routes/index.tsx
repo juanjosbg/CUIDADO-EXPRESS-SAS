@@ -40,6 +40,7 @@ function Index() {
         <AmbulanceCarousel />
         <About />
         <Services />
+        <WhyUs />
         <Transparency />
         <Contact />
       </main>
