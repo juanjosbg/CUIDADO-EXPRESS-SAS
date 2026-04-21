@@ -55,7 +55,7 @@ export function Services() {
             >
               <div className="flex items-baseline gap-4">
                 <span className="text-xs font-medium tracking-[0.2em] text-white/40">{s.n}</span>
-                <h3 className="text-2xl md:text-3xl font-display font-light text-white transition-transform duration-500 group-hover:translate-x-2">
+                <h3 className="text-2xl md:text-3xl font-light text-white tracking-tight transition-transform duration-500 group-hover:translate-x-2">
                   {s.title}
                 </h3>
               </div>
