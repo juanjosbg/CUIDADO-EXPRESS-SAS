@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import logo from "@/assets/Logo2.png";
 

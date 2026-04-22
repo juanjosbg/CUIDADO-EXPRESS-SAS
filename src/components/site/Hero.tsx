@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 import heroImg from "@/assets/ambulance-5.jpg";
 

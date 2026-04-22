@@ -7,7 +7,7 @@ import { WhyUs } from "@/components/site/WhyUs";
 import { Transparency } from "@/components/site/Transparency";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
-import { useReveal } from "@/hooks/useReveal";
+import { HomeClientEffects } from "@/components/site/HomeClientEffects";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -30,9 +30,9 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
-  useReveal();
   return (
     <div className="min-h-screen bg-background">
+      <HomeClientEffects />
       <Header />
       <main>
         <Hero />
