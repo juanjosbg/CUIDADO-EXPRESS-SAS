@@ -1,14 +1,17 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const photoModules = import.meta.glob("../../public/photos/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}", {
-  eager: true,
-  import: "default",
-});
+const photoFilenames = [
+  "CUIDADO-EXPRESS-2.jpeg",
+  "CUIDADO-EXPRESS-3.jpeg",
+  "CUIDADO-EXPRESS-4.jpeg",
+  "CUIDADO-EXPRESS-5.jpeg",
+  "CUIDADO-EXPRESS-6.jpeg",
+];
 
-const slides = Object.entries(photoModules)
-  .map(([path, src]) => ({
-    src: src as string,
-    name: path.split("/").pop()?.replace(/\.[^.]+$/, "") ?? "Cuidado Express",
+const slides = photoFilenames
+  .map((filename) => ({
+    src: `/photos/${filename}`,
+    name: filename.replace(/\.[^.]+$/, ""),
   }))
   .sort((a, b) => a.name.localeCompare(b.name, "es"));
 

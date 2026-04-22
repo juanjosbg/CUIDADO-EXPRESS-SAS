@@ -3,25 +3,13 @@ const documents = [
     title: "Estados Financieros 2024",
     desc: "Estado de situación financiera, resultados y flujos de efectivo.",
     type: "PDF",
-    href: "#",
+    href: "/docs/E-Financieros/ESTADOS-FINANCIEROS-CON-NOTAS.pdf",
   },
   {
-    title: "Notas a los Estados Financieros 2024",
-    desc: "Notas explicativas y revelaciones contables.",
-    type: "PDF",
-    href: "#",
-  },
-  {
-    title: "Estados Financieros 2023",
-    desc: "Información financiera comparativa del periodo anterior.",
-    type: "PDF",
-    href: "#",
-  },
-  {
-    title: "Notas a los Estados Financieros 2023",
-    desc: "Documento complementario del periodo 2023.",
-    type: "PDF",
-    href: "#",
+    title: "Portafolio de Ambulancias",
+    desc: "Estado de situación financiera, resultados y flujos de efectivo.",
+    type: "DOC",
+    href: "/docs/Portafolio/PORTAFOLIO-AMBULANCIAS-2026.pdf",
   },
 ];
 
@@ -56,6 +44,8 @@ export function Transparency() {
             <a
               key={d.title}
               href={d.href}
+              target="_blank"
+              rel="noreferrer"
               className={`reveal reveal-delay-${(i % 4) + 1} group relative flex items-start gap-5 p-6 md:p-8 rounded-2xl bg-background border border-border transition-all duration-500 hover:border-foreground/20 hover:shadow-elevated hover:-translate-y-1`}
             >
               <div
