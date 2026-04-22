@@ -77,7 +77,7 @@ export function Contact() {
                 Línea de emergencias
               </span>
             </div>
-            <p className="font-display text-3xl md:text-4xl font-light text-foreground">
+            <p className="font-display text-xl md:text-3xl font-light text-foreground">
               Disponibles 24 horas, todos los días.
             </p>
           </div>
@@ -85,7 +85,7 @@ export function Contact() {
             href="mailto:financiero@cuidadoexpress.com"
             className="inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-foreground text-background text-sm font-semibold tracking-wide transition-all duration-500 hover:opacity-90 hover:-translate-y-0.5"
           >
-            Escribirnos
+            Contáctanos
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M13 5l7 7-7 7" />
             </svg>
