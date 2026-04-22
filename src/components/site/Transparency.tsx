@@ -1,6 +1,6 @@
 const documents = [
   {
-    title: "Estados Financieros 2024",
+    title: "Estados Financieros 2025",
     desc: "Estado de situación financiera, resultados y flujos de efectivo.",
     type: "PDF",
     href: "/docs/E-Financieros/ESTADOS-FINANCIEROS-CON-NOTAS.pdf",
